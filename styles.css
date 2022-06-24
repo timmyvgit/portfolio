@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: black;
     color: white;
@@ -5,9 +8,14 @@ body {
     padding: 0;
     font-family: 'Gotham', sans-serif;
 }
-
+.title {
+    margin-top: 20px;
+}
 .hero {
     font-size: 40px;
+    height: 100vh;
+}
+.resume {
     height: 100vh;
 }
 footer {
@@ -16,12 +24,13 @@ footer {
 nav {
     display: flex;
     justify-content: space-between;
+    background-color: darkslategrey;
 }
 ul {
     display: flex;
     list-style-type: none;
-    width: 600px;
-    justify-content: space-around;
+    width: 700px;
+    justify-content: space-between;
     font-size: 30px;
 }
 li {
@@ -30,7 +39,14 @@ li {
 }
 h1 {
     font-size: 90px;
+    margin: 20px 0px;
+}
+h2 {
+    font-size: 40px;
     margin: 0;
+}
+.pointer {
+    cursor: pointer;
 }
 .hero-area {
     display: flex;
@@ -46,13 +62,16 @@ h1 {
     margin-top: 18px;
     width: 180px;
     height: 50px;
-    background-color: dimgrey;
+    background-color: red;
     border-radius: 30px;
     padding-top: 10px;
     text-align: center;
     font-size: 30px;
 }
 .button:hover {
+    background-color: dimgrey;
+}
+.button:active {
     background-color: darkslategray;
 }
 p {
@@ -60,6 +79,32 @@ p {
     font-size: 30px;
     font-weight: 300;
 }
+a {
+    color:white;
+    text-decoration: none;
+}
+.socials {
+    padding-bottom: 200px;
+}
+.social {    
+    margin: 20px;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+}
 .subtext {
     font-size: 15px;
+}
+.about {
+    padding: 60px;
+    height: 100vh;
+    background-color: white;
+    /* color:black; */
+}
+.subsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 60px;
 }
