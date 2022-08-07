@@ -17,6 +17,14 @@ body {
 }
 .resume {
     height: 100vh;
+    text-align: center;
+}
+.resume h2 {
+    text-align: center;
+}
+.contact {
+    height: 100vh;
+    
 }
 footer {
     text-align: center;
@@ -39,16 +47,15 @@ li {
 }
 h1 {
     font-size: 90px;
-    margin: 20px 0px;
 }
 h2 {
     font-size: 40px;
-    margin: 0;
 }
 .pointer {
     cursor: pointer;
 }
 .hero-area {
+    /* margin-left: 80px; */
     display: flex;
     height: 100%;
     justify-content: space-between;
@@ -75,7 +82,8 @@ h2 {
     background-color: darkslategray;
 }
 p {
-    margin: 0;
+    /* margin-bottom: 
+    margin:  */
     font-size: 30px;
     font-weight: 300;
 }
@@ -97,14 +105,15 @@ a {
     font-size: 15px;
 }
 .about {
-    padding: 60px;
+    
     height: 100vh;
     background-color: white;
-    /* color:black; */
+    color:black;
 }
 .subsection {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 60px;
+    /* padding: 60px; */
 }
