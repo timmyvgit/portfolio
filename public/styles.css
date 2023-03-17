@@ -10,21 +10,20 @@ body {
 }
 .title {
     margin-top: 20px;
+    margin-left: 100px;
 }
 .hero {
     font-size: 40px;
     height: 100vh;
 }
-.resume {
+#about {
     height: 100vh;
-    text-align: center;
+    background-color: white;
+    color: black;
 }
-.resume h2 {
-    text-align: center;
-}
-.contact {
+#resume {
     height: 100vh;
-    
+    background-color: black;
 }
 footer {
     text-align: center;
@@ -49,7 +48,11 @@ h1 {
     font-size: 90px;
 }
 h2 {
+    margin-left: 100px;
     font-size: 40px;
+}
+h3 {
+    margin-left: 100px;
 }
 .pointer {
     cursor: pointer;
@@ -64,6 +67,9 @@ h2 {
 .hero-text {
     margin-left: 80px;
     margin-bottom: 200px;
+}
+.hero-text p {
+    margin: 0;
 }
 .button {
     margin-top: 18px;
@@ -82,8 +88,7 @@ h2 {
     background-color: darkslategray;
 }
 p {
-    /* margin-bottom: 
-    margin:  */
+    margin: 0 100px 0 100px;
     font-size: 30px;
     font-weight: 300;
 }
@@ -97,18 +102,43 @@ a {
 .social {    
     margin: 20px;
 }
+.about { 
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+.resume {
+    height: 100%;
+    background-color: white;
+    color: black;
+}
+.resume h2 {
+    text-align: left;
+}
+iframe {
+    background-color: white;
+    margin-left: 100px;
+    width: 75vw;
+    height: 75vh;
+}
+.projects {
+    height: 20vh;
+    background-color: black;
+    color: white;
+}
 .contact {
+    height: 20vh;
     display: flex;
     flex-direction: column;
 }
+.contact a {
+    margin-left: 100px;
+}
+.contact h2 {
+    margin-left: 0;
+}
 .subtext {
     font-size: 15px;
-}
-.about {
-    
-    height: 100vh;
-    background-color: white;
-    color:black;
 }
 .subsection {
     height: 100vh;
